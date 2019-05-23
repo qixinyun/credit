@@ -15,6 +15,19 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         'TEST' => 500
     );
 
+    const USERGROUP_TYPE_RELATIONSHIP = array(
+        IUserGroup::ID['NULL'] => array(
+            self::TYPE['NULL'],
+            self::TYPE['XBXZCFXX'],
+            self::TYPE['XBXZXKXX'],
+            self::TYPE['XZCFXX'],
+            self::TYPE['XZXKXX'],
+            self::TYPE['SHOUXHBXX'],
+            self::TYPE['SHIXHBXX'],
+            self::TYPE['TEST']
+        ),
+    );
+
     const STATUS_NORMAL = 0;
 
     const STATUS_DELETE = -2;
