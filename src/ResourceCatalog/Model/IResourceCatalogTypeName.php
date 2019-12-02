@@ -40,7 +40,7 @@ interface IResourceCatalogTypeName
         IResourceCatalog::TYPE['CHZZDWXX'] => '测绘资质单位信息',
         IResourceCatalog::TYPE['HSZYZGZXX'] => '护士执业资格证信息',
         IResourceCatalog::TYPE['QYGSZXXX'] => '企业税务注销信息',
-        IResourceCatalog::TYPE['QYSWXZCFXX'] => '企业税务行政处罚信息',#QYDSXZCFXX => QYSWXZCFXX
+        IResourceCatalog::TYPE['QYSWXZCFXX'] => '企业税务行政处罚信息',
         IResourceCatalog::TYPE['AJNSRXX'] => 'A级纳税人信息',
         IResourceCatalog::TYPE['WXHXPQYBHGLQD'] => '危险化学品企业编号管理清单',
         IResourceCatalog::TYPE['EYQFDGRXX'] => '恶意欠费的个人信息',
@@ -51,9 +51,9 @@ interface IResourceCatalogTypeName
         IResourceCatalog::TYPE['XZXKQYXX'] => '行政许可企业信息',
         IResourceCatalog::TYPE['EYQFQYXX'] => '经法院认定为恶意欠费的企业信息',
         IResourceCatalog::TYPE['SYDWFRDJXX'] => '事业单位法人登记信息',
-        IResourceCatalog::TYPE['PXSTYXHDJXX'] => '宜昌市体育协会登记信息',#PXSTYXHDJXX => YCSTYXHDJXX
+        IResourceCatalog::TYPE['YCSTYXHDJXX'] => '宜昌市体育协会登记信息',
         IResourceCatalog::TYPE['DZDAGZZDWGRBZJL'] => '对在档案工作中作出显著成绩的或者向国家捐赠重要、珍贵档案的单位和个人的表彰或者奖励',
-        IResourceCatalog::TYPE['JXSZLJDW'] => '湖北省专利奖（单位）',#JXSZLJDW => HBSZLJDW
+        IResourceCatalog::TYPE['HBSZLJDW'] => '湖北省专利奖（单位）',
         IResourceCatalog::TYPE['DTJXJGRXX'] => '对统计先进个人信息',
         IResourceCatalog::TYPE['SXBZXJGXX'] => '失信被执行机构信息',
         IResourceCatalog::TYPE['SXBZXRMD'] => '失信被执行人名单',
@@ -74,7 +74,7 @@ interface IResourceCatalogTypeName
         IResourceCatalog::TYPE['SXQYHMD'] => '失信企业黑名单',
         IResourceCatalog::TYPE['SPYPTSJBJLGR'] => '食品药品投诉举报奖励（个人）',
         IResourceCatalog::TYPE['SPYPTSJBJLDW'] => '食品药品投诉举报奖励（单位）',
-        IResourceCatalog::TYPE['JXMPCPXX'] => '湖北名牌产品信息',#JXMPCPXX => HBMPCPXX
+        IResourceCatalog::TYPE['HBMPCPXX'] => '湖北名牌产品信息',
         IResourceCatalog::TYPE['JSZGXX'] => '教师资格信息',
         IResourceCatalog::TYPE['SJYXXS'] => '市级三好学生、市级优秀学生干部',
         IResourceCatalog::TYPE['SYBXXX'] => '失业保险信息',
