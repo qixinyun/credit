@@ -12,9 +12,6 @@ interface IResourceCatalogTypeDoublePublicity
         IResourceCatalog::TYPE['XZXKXX'] => ISearchableResourceCatalogData::DOUBLE_PUBLICITY['LICENSE'],
         IResourceCatalog::TYPE['SHOUXHBXX'] => ISearchableResourceCatalogData::DOUBLE_PUBLICITY['NULL'],
         IResourceCatalog::TYPE['SHIXHBXX'] => ISearchableResourceCatalogData::DOUBLE_PUBLICITY['NULL'],
-
-        IResourceCatalog::TYPE['XBXZCF'] => ISearchableResourceCatalogData::DOUBLE_PUBLICITY['SANCTION'],
-        IResourceCatalog::TYPE['XBXZXK'] => ISearchableResourceCatalogData::DOUBLE_PUBLICITY['LICENSE'],
         IResourceCatalog::TYPE['MZSHTTHMBFQYDW'] => ISearchableResourceCatalogData::DOUBLE_PUBLICITY['NULL'],
         IResourceCatalog::TYPE['QYJBXX'] => ISearchableResourceCatalogData::DOUBLE_PUBLICITY['NULL'],
         IResourceCatalog::TYPE['QYYCMLXX'] => ISearchableResourceCatalogData::DOUBLE_PUBLICITY['NULL'],
