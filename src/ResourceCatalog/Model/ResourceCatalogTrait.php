@@ -26,9 +26,9 @@ trait ResourceCatalogTrait
 
     public function setType(int $type) : void
     {
-        $this->type = in_array($type, self::TYPE)
-        ? $type
-        : self::TYPE['NULL'];
+        $this->type = in_array(
+            $type, self::TYPE
+        ) ? $type : self::TYPE['NULL'];
     }
 
     public function getType() : int
