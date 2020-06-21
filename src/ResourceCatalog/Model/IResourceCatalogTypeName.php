@@ -119,6 +119,9 @@ interface IResourceCatalogTypeName
         IResourceCatalog::TYPE['XZJLXXZRR'] => '行政奖励信息（自然人）',
         IResourceCatalog::TYPE['XZJLXXFRHQTZZ'] => '行政奖励信息（法人和其他组织）',
         IResourceCatalog::TYPE['QYGDZCTZXMHZHBA'] => '企业固定资产投资项目核准或备案',
-        IResourceCatalog::TYPE['TEST'] => '演示资源目录'
+        IResourceCatalog::TYPE['TEST'] => '演示资源目录',
+
+        IResourceCatalog::TYPE['JDLKPKHGRSNDKFFQD'] => '宜昌市建档立卡贫困户个人涉农贷款发放清单',
+        IResourceCatalog::TYPE['JDLKPKHRKXX'] => '宜昌市建档立卡贫困户人口信息',
     );
 }

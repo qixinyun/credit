@@ -118,7 +118,10 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         'QYJBXX' => 111,
         'QYYCMLXX' => 112,
         'SXQYHMD' => 113,
-        'TEST' => 500
+        'TEST' => 500,
+
+        'JDLKPKHGRSNDKFFQD' => 201,
+        'JDLKPKHRKXX' => 202,
     );
 
     const USERGROUP_TYPE_RELATIONSHIP = array(
@@ -299,6 +302,10 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         IUserGroup::ID['XWXFGJ'] => array(),
         IUserGroup::ID['PSXFGJ'] => array(),
         IUserGroup::ID['LGJKQFZCHTZFWJ'] => array(),
+        IUserGroup::ID['SFPB'] => array(
+            self::TYPE['JDLKPKHGRSNDKFFQD'],
+            self::TYPE['JDLKPKHRKXX'],
+        ),
     );
 
     const STATUS_NORMAL = 0;

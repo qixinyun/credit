@@ -64,6 +64,7 @@ interface IUserGroupIdentify
         IUserGroup::ID['SFPKFJ'] => 'SFPKFJ',
         IUserGroup::ID['SMCH'] => 'SMCH',
         IUserGroup::ID['SFL'] => 'SFL',
+        IUserGroup::ID['SFPB'] => 'SFPB',
         IUserGroup::ID['CPQFGJ'] => 'CPQFGJ',
         IUserGroup::ID['NXQFGJ'] => 'NXQFGJ',
         IUserGroup::ID['XZQFGJ'] => 'XZQFGJ',
