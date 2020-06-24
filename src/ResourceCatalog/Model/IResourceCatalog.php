@@ -140,7 +140,11 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
             self::TYPE['TZXMMCDMPPXX'],
             self::TYPE['QYGDZCTZXMHZHBA']
         ),
-        IUserGroup::ID['RHYBSZZ'] => array(self::TYPE['JKQYPJAJYSMD']),
+        IUserGroup::ID['RHYBSZZ'] => array(
+            self::TYPE['JKQYPJAJYSMD'],
+            self::TYPE['JDLKPKHGRSNDKFFQD'],
+            self::TYPE['JDLKPKHRKXX'],
+        ),
         IUserGroup::ID['SWXCB'] => array(self::TYPE['HRBXX'], self::TYPE['ZYZXX']),
         IUserGroup::ID['SWXB'] => array(),
         IUserGroup::ID['SWZZB'] => array(),
