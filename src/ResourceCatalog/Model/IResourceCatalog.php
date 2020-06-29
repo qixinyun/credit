@@ -131,6 +131,8 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
             self::TYPE['XBXZXKXX'],
             self::TYPE['SHOUXHBXX'],
             self::TYPE['SHIXHBXX'],
+            self::TYPE['JDLKPKHGRSNDKFFQD'],
+            self::TYPE['JDLKPKHRKXX'],
             self::TYPE['TEST']
         ),
         IUserGroup::ID['FZHGGWYH'] => array(
@@ -142,8 +144,6 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         ),
         IUserGroup::ID['RHYBSZZ'] => array(
             self::TYPE['JKQYPJAJYSMD'],
-            self::TYPE['JDLKPKHGRSNDKFFQD'],
-            self::TYPE['JDLKPKHRKXX'],
         ),
         IUserGroup::ID['SWXCB'] => array(self::TYPE['HRBXX'], self::TYPE['ZYZXX']),
         IUserGroup::ID['SWXB'] => array(),
@@ -306,10 +306,7 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         IUserGroup::ID['XWXFGJ'] => array(),
         IUserGroup::ID['PSXFGJ'] => array(),
         IUserGroup::ID['LGJKQFZCHTZFWJ'] => array(),
-        IUserGroup::ID['SFPB'] => array(
-            self::TYPE['JDLKPKHGRSNDKFFQD'],
-            self::TYPE['JDLKPKHRKXX'],
-        ),
+        IUserGroup::ID['SFPB'] => array(),
     );
 
     const STATUS_NORMAL = 0;
